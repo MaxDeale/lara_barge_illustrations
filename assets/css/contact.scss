@@ -12,9 +12,10 @@ body {
 }
 
 .menu-container {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   div {
     width: 200px;
     img {
@@ -22,7 +23,6 @@ body {
     }
   }
   .menu-item-1 {
-    width: 15%;
     transition: all 1s;
 
     &:hover {
@@ -46,6 +46,84 @@ body {
     transition: all 1s;
     &:hover {
       transform: rotateY(360deg);
+    }
+  }
+}
+
+//CONTACT
+
+.contact-container {
+  img {
+    width: 300px;
+  }
+  width: 60%;
+  margin: 2rem auto;
+  display: flex;
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+    .form-group {
+      padding: 0.5rem;
+      label {
+        margin: 0 1rem;
+      }
+      input {
+        padding: 1rem 0;
+        width: 100%;
+        outline: none;
+      }
+      input:focus {
+        outline: none;
+        border-color: blanchedalmond;
+      }
+      textarea {
+        width: 330px;
+        height: 300px;
+        font-size: 1.5rem;
+      }
+      textarea:focus {
+        outline: none;
+        border-color: blanchedalmond;
+      }
+    }
+  }
+  #form-submit {
+    padding: 1rem;
+    width: 100%;
+    background-color: blanchedalmond;
+    font-size: 1rem;
+    border: 1px solid rgb(71, 54, 23);
+    transition: all 0.4s ease-in-out;
+  }
+  #form-submit:hover {
+    background-color: rgb(71, 54, 23);
+    color: blanchedalmond;
+    border: 1px solid blanchedalmond;
+    cursor: pointer;
+  }
+
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 0;
+    h4 {
+      font-size: 2rem;
+    }
+    p {
+      margin: 1rem 0;
+      font-size: 1.2rem;
+      i {
+        color: rgb(71, 54, 23);
+        transition: all 1s ease-in-out;
+      }
+      i:hover {
+        background-color: rgb(71, 54, 23);
+        color: blanchedalmond;
+        border-radius: 50%;
+        padding: 1rem;
+      }
     }
   }
 }

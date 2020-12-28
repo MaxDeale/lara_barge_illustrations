@@ -12,11 +12,13 @@ body {
 }
 
 .menu-container {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .menu-container div {
@@ -28,7 +30,6 @@ body {
 }
 
 .menu-container .menu-item-1 {
-  width: 15%;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -66,6 +67,110 @@ body {
 .menu-container .menu-item-4:hover {
   -webkit-transform: rotateY(360deg);
           transform: rotateY(360deg);
+}
+
+.contact-container {
+  width: 60%;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-container img {
+  width: 300px;
+}
+
+.contact-container #contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 4rem;
+}
+
+.contact-container #contact-form .form-group {
+  padding: 0.5rem;
+}
+
+.contact-container #contact-form .form-group label {
+  margin: 0 1rem;
+}
+
+.contact-container #contact-form .form-group input {
+  padding: 1rem 0;
+  width: 100%;
+  outline: none;
+}
+
+.contact-container #contact-form .form-group input:focus {
+  outline: none;
+  border-color: blanchedalmond;
+}
+
+.contact-container #contact-form .form-group textarea {
+  width: 330px;
+  height: 300px;
+  font-size: 1.5rem;
+}
+
+.contact-container #contact-form .form-group textarea:focus {
+  outline: none;
+  border-color: blanchedalmond;
+}
+
+.contact-container #form-submit {
+  padding: 1rem;
+  width: 100%;
+  background-color: blanchedalmond;
+  font-size: 1rem;
+  border: 1px solid #473617;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.contact-container #form-submit:hover {
+  background-color: #473617;
+  color: blanchedalmond;
+  border: 1px solid blanchedalmond;
+  cursor: pointer;
+}
+
+.contact-container .contact-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.contact-container .contact-details h4 {
+  font-size: 2rem;
+}
+
+.contact-container .contact-details p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.contact-container .contact-details p i {
+  color: #473617;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.contact-container .contact-details p i:hover {
+  background-color: #473617;
+  color: blanchedalmond;
+  border-radius: 50%;
+  padding: 1rem;
 }
 
 #main-footer {

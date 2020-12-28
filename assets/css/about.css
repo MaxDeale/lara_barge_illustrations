@@ -12,7 +12,7 @@ body {
 }
 
 .menu-container {
-  width: 50%;
+  width: 60%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0 auto;
@@ -73,7 +73,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
+  width: 60%;
   margin: 2rem auto;
 }
 

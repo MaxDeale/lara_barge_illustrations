@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@500&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +8,7 @@
 
 body {
   background-image: url("/assets/img/bkgrnd1.png");
+  font-family: "Spectral";
 }
 
 .menu-container {
@@ -78,14 +80,13 @@ body {
 
 .about-container img {
   width: 400px;
-  border-radius: 50%;
   border: 2px solid black;
 }
 
 .about-container .about-info {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 2rem;
-  margin-left: 5%;
+  margin-left: 8%;
 }
 
 #main-footer {

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@500&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +8,7 @@
 
 body {
   background-image: url("/assets/img/bkgrnd1.png");
+  font-family: "Spectral";
 }
 
 .menu-container {

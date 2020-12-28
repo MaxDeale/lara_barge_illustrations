@@ -12,6 +12,7 @@ body {
 }
 
 .main-container {
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,8 +64,8 @@ body {
 
 .main-container .menu-container .menu-item-2 {
   width: 15%;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 2s;
+  transition: all 2s;
   position: absolute;
   left: 870px;
   top: 40px;
@@ -95,5 +96,22 @@ body {
 .main-container .menu-container .menu-item-3:hover {
   -webkit-transform: translateY(20px);
           transform: translateY(20px);
+}
+
+#main-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main-footer img {
+  width: 200px;
+  margin-left: 40%;
 }
 /*# sourceMappingURL=main.css.map */

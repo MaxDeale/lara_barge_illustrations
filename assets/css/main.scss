@@ -10,7 +10,10 @@ body {
   max-width: 1920px;
 }
 
+//HOME
+
 .main-container {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -44,7 +47,7 @@ body {
     }
     .menu-item-2 {
       width: 15%;
-      transition: all 1s;
+      transition: all 2s;
       position: absolute;
       left: 870px;
       top: 40px;
@@ -68,5 +71,17 @@ body {
         transform: translateY(20px);
       }
     }
+  }
+}
+
+// FOOTER
+
+#main-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 200px;
+    margin-left: 40%;
   }
 }

@@ -11,8 +11,6 @@ body {
 
 .menu-container {
   width: 50%;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -68,26 +66,6 @@ body {
           transform: rotateY(360deg);
 }
 
-.about-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 50%;
-  margin: 2rem auto;
-}
-
-.about-container img {
-  width: 400px;
-  border-radius: 50%;
-  border: 2px solid black;
-}
-
-.about-container .about-info {
-  font-size: 2rem;
-  padding: 2rem;
-  margin-left: 5%;
-}
-
 #main-footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -104,4 +82,4 @@ body {
   width: 200px;
   margin-left: 40%;
 }
-/*# sourceMappingURL=about.css.map */
+/*# sourceMappingURL=contact.css.map */

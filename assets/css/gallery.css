@@ -30,7 +30,6 @@ body {
 }
 
 .menu-container .menu-item-1 {
-  width: 15%;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -68,6 +67,51 @@ body {
 .menu-container .menu-item-4:hover {
   -webkit-transform: rotateY(360deg);
           transform: rotateY(360deg);
+}
+
+#gallery .gal-intro {
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 1rem auto;
+}
+
+#gallery .gal-intro h2 {
+  width: 600px;
+  font-size: 4.2rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+#gallery .gallery-container {
+  width: 70%;
+  margin: 1rem auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(350px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+#gallery .gallery-container .gallery-item {
+  margin: 1rem;
+  width: 350px;
+  height: 400px;
+}
+
+#gallery .gallery-container .gallery-item .port-pic {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#gallery .gallery-container .gallery-item .port-pic:hover {
+  opacity: 0.8;
 }
 
 #main-footer {

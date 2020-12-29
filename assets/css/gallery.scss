@@ -73,13 +73,14 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     .gallery-item {
+      border: 1px solid transparent;
       margin: 1rem;
       width: 350px;
       height: 400px;
       .port-pic {
         width: 100%;
         height: 100%;
-        transition: all 0.3s ease-in;
+        transition: all 0.1s ease-in;
         &:hover {
           opacity: 0.8;
         }

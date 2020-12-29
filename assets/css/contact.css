@@ -69,8 +69,16 @@ body {
           transform: rotateY(360deg);
 }
 
+.heading {
+  font-size: 3.2rem;
+  text-align: center;
+  margin: 1rem auto;
+  border-bottom: 3px solid blanchedalmond;
+  width: 400px;
+}
+
 .contact-container {
-  width: 60%;
+  width: 80%;
   margin: 2rem auto;
   display: -ms-grid;
   display: grid;

@@ -52,11 +52,19 @@ body {
 
 //CONTACT
 
+.heading {
+  font-size: 3.2rem;
+  text-align: center;
+  margin: 1rem auto;
+  border-bottom: 3px solid blanchedalmond;
+  width: 400px;
+}
+
 .contact-container {
   img {
     width: 300px;
   }
-  width: 60%;
+  width: 80%;
   margin: 2rem auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

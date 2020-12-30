@@ -12,7 +12,7 @@ body {
 }
 
 .menu-container {
-  width: 60%;
+  width: 70%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0 auto;
@@ -73,7 +73,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 60%;
+  width: 80%;
   margin: 2rem auto;
 }
 
@@ -83,7 +83,7 @@ body {
 }
 
 .about-container .about-info {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   padding: 2rem;
   line-height: 2;
   margin-left: 8%;

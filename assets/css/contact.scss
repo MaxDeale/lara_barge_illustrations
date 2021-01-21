@@ -150,3 +150,55 @@ body {
     width: 200px;
   }
 }
+
+@media (max-width: 600px) {
+  .heading {
+    font-size: 2rem;
+    width: 100%;
+  }
+  #tree {
+    width: 50%;
+  }
+  #contact-form {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto !important;
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      input {
+        padding: 0;
+        width: 90% !important;
+      }
+    }
+    #message {
+      width: 100%;
+    }
+    #form-submit {
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+  .contact-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .contact-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    h4 {
+      font-size: 15px !important;
+    }
+    p {
+      font-size: 18px !important;
+    }
+  }
+
+  #main-footer {
+    display: flex;
+    flex-direction: column;
+  }
+}

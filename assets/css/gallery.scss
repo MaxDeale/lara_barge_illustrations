@@ -71,12 +71,12 @@ body {
     width: 70%;
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     .gallery-item {
       border: 1px solid transparent;
       margin: 1rem;
-      width: 350px;
-      height: 400px;
+      width: 250px;
+      height: 300px;
       .port-pic {
         width: 100%;
         height: 100%;

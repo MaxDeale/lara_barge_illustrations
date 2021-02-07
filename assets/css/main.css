@@ -100,6 +100,36 @@ body {
           transform: translateY(20px);
 }
 
+.main-container .menu-container .menu-item-4 {
+  width: 15%;
+  top: 300px;
+  left: 15%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  position: absolute;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+.main-container .menu-container .menu-item-4 img {
+  width: 100%;
+}
+
+.main-container .menu-container .menu-item-4:hover {
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+}
+
+.main-container .menu-container #grey-cat {
+  position: absolute;
+  left: 70%;
+  top: 440px;
+}
+
+.main-container .menu-container #grey-cat img {
+  width: 45%;
+}
+
 #main-footer {
   display: -webkit-box;
   display: -ms-flexbox;

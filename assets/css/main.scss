@@ -91,9 +91,13 @@ body {
       position: absolute;
       left: 70%;
       top: 440px;
+      transition: all 0.3s;
       img {
         width: 45%;
       }
+    }
+    #grey-cat:hover {
+      transform: rotate(10deg);
     }
   }
 }

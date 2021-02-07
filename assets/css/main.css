@@ -124,10 +124,17 @@ body {
   position: absolute;
   left: 70%;
   top: 440px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .main-container .menu-container #grey-cat img {
   width: 45%;
+}
+
+.main-container .menu-container #grey-cat:hover {
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
 }
 
 #main-footer {
